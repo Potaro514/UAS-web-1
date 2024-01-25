@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    transition: top 0.3s;
+}
+.navbar .container .navbar-brand a{
+    font-weight: 600;
+}
+/* /Navbar */
+
+/* About */
+.About{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.perkenalan {
+    display: flex;
+}
+.biografi {
+    /* width: 40%; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+.biografi h2{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+}
+.biografi h1{
+    color: #03A9F5;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 1px;
+}
+.biografi p{
+    color: #4D4D4D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+/* /About */
+
+/* Carousel */
+.carousel-inner{
+    display: block;
+    max-width: 100%;
+}
+.MoWGallery h2{
+    color: #4D4D4D;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 90px;
+    
+}
+.bawah{
+    font-family: 'Poppins', sans-serif;
+    color: #4D4D4D;
+}
+/* /Carousel */
+
+/* History */
+.History img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.History h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #03A9F5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.History h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.History p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #4D4D4D;
+    text-align: center;
+}
+/* /History */
+
+/* Member */
+.Member{
+    background-color: #3f3f3f;
+}
+.Member h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #03A9F5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Member h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+.Member .spin-off p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.MemberHover {
+  position: relative;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlayM {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(77,77,77, 0.3);
+}
+.MemberHover:hover .overlayM {
+  opacity: 1;
+}
+.MemberHover{
+    transition: all .5s ease-in-out;
+}
+.MemberHover:hover{
+    transform: scale(105%);
+}
+.textM {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+/* /Member */
+
+/* Footer */
+.Footer{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #03A9F5;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+}
+/* Footer */

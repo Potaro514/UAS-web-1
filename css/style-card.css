@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+
+body {
+  background-image: url("../img/Kartu/BG_CS_PR_00.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.body-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 0;
+}
+
+.tiltcard {
+  width: 300px;
+  height: 450px;
+  background-image: url("../img/Kartu/wadah.png");
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profilepic img {
+  width: 150px;
+  height: 170px;
+  object-fit: cover;
+  margin: 0px 0px 10px 0px;
+}
+
+.icon img {
+  margin: 25px 0px 20px 0px;
+}
+
+.training {
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 0px 0px;
+}
+
+.training p {
+  margin: 25px 0px 5px 0px;
+}
+
+.nama-npm {
+  color: #7ed3f3;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0px 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+.nama {
+  font-size: 18px;
+  margin: 0px 0px;
+}
+.npm {
+  font-size: 15px;
+  margin: 0px 0px;
+}
+
+.contact {
+  margin: 0px 0px 0px 0px;
+}
+
+.kontak {
+  color: #ffff;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  margin: 0px 0px;
+}
+
+.contact svg {
+  fill: #ffff;
+  margin: 0px 3px;
+}
+
+.contact a {
+  text-decoration: none;
+}
+.contact svg:hover {
+  stroke: #7ed3f3;
+}
+
+.perkenalan {
+  display: flex;
+}
+.biografi {
+  /* width: 40%; */
+  font-family: "Titillium Web", sans-serif;
+}
+.biografi h2 {
+  color: #03a9f5;
+  font-size: 20px;
+  font-weight: 600;
+}
+.biografi h1 {
+  color: #4d4d4d;
+  font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
+}
+.biografi p {
+  color: #4d4d4d;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.About .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
